@@ -1,4 +1,4 @@
-## Chatbot MySQL ##
+# Chatbot MySQL #
 <br>
 Chatbot MySQL Python com GPT-4 e Mistral AI <br>
 Bem-vindo ao repositório GitHub de um chatbot utilizando SQL em linguagem natural com o GPT-4! desenvolvimento de um chatbot que pode interpretar consultas em linguagem natural, gerar consultas SQL e obter resultados de um banco de dados SQL, tudo dentro de uma interface de chat localhost gerado na inicialização do projeto. Integrado com uma GUI do Streamlit para uma experiência de interação aprimorada.
