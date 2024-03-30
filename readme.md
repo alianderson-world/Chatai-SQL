@@ -39,30 +39,21 @@ Para configurar a chave da API do GROQ, siga estas etapas:
     GROQ_API_KEY=SEU_GROQ_API_KEY
     ```
 
-
+<br>
 ```
 git clone [link-do-repositório]
 cd [diretório-do-repositório]
 Instale os pacotes necessários:
 ```
-
+<br>
+Instale os requerimentos:
 ```
-bash
-Copy code
 pip install -r requirements.txt
-Crie seu próprio arquivo .env com as variáveis necessárias, incluindo sua chave da API da OpenAI:
 ```
-
-```
-OPENAI_API_KEY=[sua-chave-da-api-da-openai]
-Uso
+<br>
 Para iniciar o aplicativo Streamlit e interagir com o chatbot:
 ```
-
-```
 streamlit run app.py
-Contribuição
-Como este repositório acompanha o tutorial em vídeo do YouTube, estamos focados principalmente em fornecer uma experiência de aprendizado abrangente. Contribuições para correções de bugs ou erros de digitação são bem-vindas.
 ```
 
 Licença
