@@ -15,38 +15,55 @@ Considere o seguinte diagrama para entender como as diferentes cadeias e compone
 Arquitetura do Chatbot
 
 Instalação
-Certifique-se de ter o Python instalado em seu PC. Em seguida, clone este repositório:
+Certifique-se de ter o Python instalado em seu PC e o Anaconda para criar seu ambiente virtual. Em seguida, clone este repositório:
 
-´´´
-bash
-Copy code
+Para configurar a chave da API do OpenAI, siga estas etapas:
+
+1. Acesse [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys).
+2. Copie sua chave da API do OpenAI
+3. No seu projeto, crie um arquivo na raiz chamado `.env`
+4. Dentro do arquivo `.env`, adicione a seguinte linha e substitua `SEU_OPENAI_API_KEY` pela sua chave da API do OpenAI:
+
+    ```
+    OPENAI_API_KEY=SEU_OPENAI_API_KEY
+    ```
+
+Para configurar a chave da API do GROQ, siga estas etapas:
+
+1. Acesse [https://console.groq.com/playground](https://console.groq.com/playground).
+2. Copie sua chave da API do GROQ.
+3. No seu projeto, abra o arquivo `.env` que você criou anteriormente.
+4. Adicione a seguinte linha e substitua `SEU_GROQ_API_KEY` pela sua chave da API do GROQ:
+
+    ```
+    GROQ_API_KEY=SEU_GROQ_API_KEY
+    ```
+
+
+```
 git clone [link-do-repositório]
 cd [diretório-do-repositório]
 Instale os pacotes necessários:
-´´´
+```
 
-´´´
+```
 bash
 Copy code
 pip install -r requirements.txt
 Crie seu próprio arquivo .env com as variáveis necessárias, incluindo sua chave da API da OpenAI:
-´´´
+```
 
-´´´
-bash
-Copy code
+```
 OPENAI_API_KEY=[sua-chave-da-api-da-openai]
 Uso
 Para iniciar o aplicativo Streamlit e interagir com o chatbot:
-´´´
+```
 
-´´´
-bash
-Copy code
+```
 streamlit run app.py
 Contribuição
 Como este repositório acompanha o tutorial em vídeo do YouTube, estamos focados principalmente em fornecer uma experiência de aprendizado abrangente. Contribuições para correções de bugs ou erros de digitação são bem-vindas.
-´´´
+```
 
 Licença
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
