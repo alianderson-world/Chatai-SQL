@@ -100,10 +100,11 @@ with st.sidebar:
     st.write("Este é um aplicativo de chat simples usando MySQL. Conecte-se ao banco de dados e comece a conversar.")
     
     st.text_input("Host", value="localhost", key="Host")
-    st.text_input("Porta", value="3306", key="Port")
-    st.text_input("Usuário", value="root", key="User")
-    st.text_input("Senha", type="password", value="root", key="Password")
-    st.text_input("Banco de Dados", value="worldb", key="Database")
+    st.text_input("Port", value="3306", key="Port")
+    st.text_input("User", value="SEU_USERNAME_BANCO_DE_DADOS", key="User")
+    st.text_input("Password", type="password", value="SUA_SENHA_BANCO_DE_DADOS", key="Password")
+    st.text_input("Database", value="NOME_DO_BANCO_DE_DADOS", key="Database")
+    # Não se esqueça de criar um banco de dados com o que for pedir ao bot para ele pesquisar no seu banco de dados o que foi perguntado
     
     if st.button("Conectar"):
         with st.spinner("Conectando ao banco de dados..."):
