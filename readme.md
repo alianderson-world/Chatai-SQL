@@ -61,7 +61,7 @@ Para iniciar o aplicativo Streamlit e interagir com o chatbot: <br>
 streamlit run app.py
 ```
 
-### Licença: ### <br>
+### Licença: <br>
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
 
 Observação: Este projeto destina-se a fins educacionais e de pesquisa. Certifique-se de estar em conformidade com os termos de uso e diretrizes de quaisquer APIs ou serviços utilizados.
