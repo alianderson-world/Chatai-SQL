@@ -5,7 +5,6 @@ Bem-vindo ao repositório GitHub de um chatbot utilizando SQL em linguagem natur
 <br><br>
 
 ### Recursos: ###
-<br>
 Processamento de Linguagem Natural: Usa o GPT-4 para interpretar e responder a consultas de usuários em linguagem natural.<br>
 Geração de Consulta SQL: Gera dinamicamente consultas SQL com base na entrada em linguagem natural do usuário.<br>
 Interação com o Banco de Dados: Conecta-se a um banco de dados SQL para recuperar os resultados das consultas, demonstrando interação prática com banco de dados.<br>
@@ -16,7 +15,6 @@ O chatbot funciona pegando uma consulta em linguagem natural do usuário, conver
 <br><br>
 
 ### Instalação: ###
-<br>
 Certifique-se de ter o Python instalado em seu PC e o Anaconda para criar seu ambiente virtual. Em seguida, clone este repositório:
 
 Para criar seu ambiente virtual, insira no diretório do projeto: <br>
